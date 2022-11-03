@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title>ideia</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/layout.css">
+		<link rel="stylesheet" href="css/componentes.css">
+		
+	</head>
+	<body>
+		<header class="layout-cabecalho">
+			<div class="container">
+				
+				<nav class="navegacao navegacao--assinatura">
+					<a href="index.html">
+						<img src="images/ideia.jpg" width="100" height"35" alt="ideia">
+					</a>
+				</nav>
+			</div>
+		</header>
+		
+		<main class="layout-assinatura">
+			<div class="container">
+			
+				<form action="#" method="post">
+					<h1 class="titulo-formulario">Assine ideia</h1>
+					
+					<div class="grupo-entrada">
+						<label for="razao-social">Razão social</label>
+						<input type="text" id="razao-social" class="campo" required>
+					</div>
+					
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="grupo-entrada">
+								<label for="cnpj">CNPJ</label>
+								<input type="text" id="cnpj" class="campo" required>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">	
+							<div class="grupo-entrada">
+								<label for="data-fundacao">Data fundação</label>
+								<input type="date" id="data-fundacao" class="campo" required>
+							</div>
+						</div>
+					</div>
+					
+					<div class="grupo-entrada">
+						<label for="responsavel">Responsável</label>
+						<input type="text" id="responsavel" class="campo" required>
+					</div>
+					
+					<div class="grupo-entrada">
+						<label for="email">E-mail</label>
+						<input type="email" id="email" class="campo" required>
+					</div>
+					
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="grupo-entrada">
+								<label for="estado">Estado</label>
+								<select id="estado" class="campo">
+									<option value="">Selecione ...</option>
+								</select>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">	
+							<div class="grupo-entrada">
+								<label for="cidade">Cidade</label>
+								<select id="cidade" class="campo">
+									<option value="">Selecione ...</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="grupo-entrada">
+								<label for="senha">Senha</label>
+								<input type="password" id="senha" class="campo">
+							</div>
+						</div>
+						
+						<div class="col-sm-3">	
+							<div class="grupo-entrada">
+								<label for="confirmar-senha">Confirmar senha</label>
+								<input type="password" id="confirmar-senha" class="campo">
+							</div>
+						</div>
+					</div>		
+							
+					<div style="text-align: center; margin-top: 40px;">
+						<input type="submit" value="Assinar" class="botao botao--principal">
+					</div>
+					
+				</form>
+			</div>
+		</main>
+		
+		
+		<footer class="layout-rodape">
+			<div class="container">
+				<p>&copy; ideia. Todos os direitos reservados.</p>
+			</div>
+		</footer>
+		
+	</body>
+	
+</html>
+
